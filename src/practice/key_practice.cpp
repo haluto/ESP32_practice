@@ -1,4 +1,5 @@
 #include <key_practice.h>
+#include <Arduino.h>
 
 //key connected pins.
 #define key1_pin  14 
