@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include "../driver/SevenSegmentTM1637.h"
+#include "../driver/tm1637/SevenSegmentTM1637.h"
 
 // Module connection pins (Digital Pins)
 #define CLK 16
@@ -79,7 +79,7 @@ void smg_practice_loop() {
 
   displayNumberString("12w", &display);
   delay(2000);
-  displayNumberString("1234", &display);
+  displayNumberString("1235", &display);
   delay(2000);
   displayNumberString("12.34", &display);
   delay(2000);
